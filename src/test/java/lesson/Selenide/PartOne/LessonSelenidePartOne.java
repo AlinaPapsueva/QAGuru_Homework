@@ -1,4 +1,4 @@
-package lesson.Selenide.PartOne;
+package lesson.selenide.partone;
 
 import org.junit.jupiter.api.Test;
 
