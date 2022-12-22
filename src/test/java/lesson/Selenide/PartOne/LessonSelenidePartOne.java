@@ -21,6 +21,6 @@ public class LessonSelenidePartOne {
         //открыть страницу SoftAssertions
         $$(".wiki-more-pages").get(1).click();
         //проверка: внутри есть пример кода для JUnit5
-        $("#wiki-body").shouldHave(text("3. Using JUnit5 extend test class:"));
+        $("#wiki-body").shouldHave(text("Using JUnit5 extend test class"));
     }
 }
