@@ -1,11 +1,11 @@
-package lesson.selenide.partone;
+package selenidehomework;
 
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
-public class LessonSelenidePartOne {
+public class HomeworkSelenidePartOne {
 
     @Test
     void exampleCodeForeJUnit5shouldBeInSoftAssertions () {
