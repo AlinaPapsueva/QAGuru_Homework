@@ -1,5 +1,6 @@
 package selenidehomework;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -37,9 +38,9 @@ public class HomeworkSelenidePartTwo {
 
     }
 
-    //Actions() DragAndDrop сделать не удалось
+    //Actions() DragAndDrop не срабатывает. Кликает по квадрату А и всё
     /*@Test
-    void dragAndDrop() {
+    void actionsDragAndDrop() {
 
         WebDriverManager.chromedriver().setup();
         ChromeDriver driver = new ChromeDriver();
@@ -50,5 +51,15 @@ public class HomeworkSelenidePartTwo {
         act.dragAndDrop(from, to).perform();
         $(to).shouldHave(text("A"));
 
+    }*/
+
+    //видно, что происходит клик по квадрату А и всё, спустя время тест падает
+    //java.util.concurrent.TimeoutException
+    /*@Test
+    void actionsMoveByOffset() {
+
+        open("https://the-internet.herokuapp.com/drag_and_drop");
+        actions().moveToElement($("#column-a")).clickAndHold().moveByOffset(300, 0).release().perform();
+        $("#column-b").shouldHave(text("A"));
     }*/
 }
