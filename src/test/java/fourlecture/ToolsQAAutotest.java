@@ -30,7 +30,6 @@ public class ToolsQAAutotest {
         String dateOfBirth = "09 June,1997";
         String subject = "English";
         String hobbies = "Music";
-        String file = "C:\\Users\\papsu\\Downloads\\gory_ozero_les_467323_1920x1080.jpg";
         String picture = "gory_ozero_les_467323_1920x1080.jpg";
         String address = "Taganrog";
         String state = "NCR";
@@ -49,7 +48,7 @@ public class ToolsQAAutotest {
             $(".react-datepicker__day--009").click();
         $("#subjectsInput").setValue(subject).pressEnter();
         $("[for=hobbies-checkbox-3]").click();
-        $("#uploadPicture").uploadFile(new File(file));
+        $("#uploadPicture").uploadFromClasspath("gory_ozero_les_467323_1920x1080.jpg");
         $("#currentAddress").setValue(address);
         $("#state").click();
         $("#stateCity-wrapper").$(byText(state)).click();
