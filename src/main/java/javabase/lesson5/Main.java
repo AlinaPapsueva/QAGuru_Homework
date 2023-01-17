@@ -1,4 +1,4 @@
-package lesson5;
+package javabase.lesson5;
 
 public class Main {
     public static void main(String[] args) {
