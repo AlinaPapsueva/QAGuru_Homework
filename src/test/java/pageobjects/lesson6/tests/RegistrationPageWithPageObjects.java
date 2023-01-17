@@ -2,7 +2,7 @@ package pageobjects.lesson6.tests;
 
 import org.junit.jupiter.api.Test;
 
-public class RegistrationPageWIthPageObjects extends TestBase {
+public class RegistrationPageWithPageObjects extends TestBase {
 
     @Test
     void studentRegistrationFormTest() {
