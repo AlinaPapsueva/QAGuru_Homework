@@ -1,0 +1,10 @@
+{
+  "name": "Бусинка",
+  "breed": "siberian",
+  "color": "gray",
+  "age": 1.5,
+  "relatives": [
+    "Мурзик",
+    "Барсик"
+  ]
+}
