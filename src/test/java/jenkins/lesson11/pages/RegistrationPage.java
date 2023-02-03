@@ -8,8 +8,7 @@ import jenkins.lesson11.pages.components.UploadPicture;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 // здесь в методах хранятся локаторы и действия теста
 // изначальный простой вид теста лежит в lesson4
@@ -35,6 +34,8 @@ public class RegistrationPage {
     public RegistrationPage openPage() {
         open("https://demoqa.com/automation-practice-form");
         $(".practice-form-wrapper").shouldHave(text(TITLE_TEXT));
+        executeJavaScript("$('#fixedban').remove()");
+        executeJavaScript("$('footer').remove()");
 
         return this;
     }

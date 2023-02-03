@@ -5,11 +5,12 @@ import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
 
-@Tag("run")
+
 public class RegistrationPageWithPageObjects extends TestBase {
 
     TestData testData = new TestData();
 
+    @Tag("run")
     @Test
     void studentRegistrationFormTest() {
 
