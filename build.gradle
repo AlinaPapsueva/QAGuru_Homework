@@ -43,3 +43,10 @@ compileTestJava {
 test {
     useJUnitPlatform()
 }
+
+task registrationPage_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("run")
+    }
+
+}
