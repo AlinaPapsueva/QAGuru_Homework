@@ -44,9 +44,12 @@ test {
     useJUnitPlatform()
 }
 
-task registrationPage_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("run")
-    }
+tasks.withType(Test) {
+    systemProperties(System.getProperties())
+}
 
+task registrationPageSystemProperties_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("systemProperties_run")
+    }
 }
