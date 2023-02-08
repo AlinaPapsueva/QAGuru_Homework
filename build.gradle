@@ -23,7 +23,7 @@ allure {
 
 dependencies {
     testImplementation (
-            "com.codeborne:selenide:6.10.2",
+            "com.codeborne:selenide:6.3.5",
             "org.junit.jupiter:junit-jupiter:5.9.1",
             "org.slf4j:slf4j-simple:2.0.6",
             'org.assertj:assertj-core:3.23.1',
