@@ -30,7 +30,7 @@ public class TestData {
             ("Sports",
                     "Reading",
                     "Music");
-    String picture = "gory_ozero_les_467323_1920x1080.jpg";
+    String picture = "/gory_ozero_les_467323_1920x1080.jpg";
     String address = faker.address().city();
     String state = getRandomValue
             ("NCR",
