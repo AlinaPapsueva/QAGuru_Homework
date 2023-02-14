@@ -53,3 +53,9 @@ task registrationPageSystemProperties_test(type: Test) {
         includeTags("systemProperties_run")
     }
 }
+
+task innotech_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("innotech_test")
+    }
+}
