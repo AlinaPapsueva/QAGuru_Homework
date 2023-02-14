@@ -72,7 +72,10 @@ public class InnotechSiteTest extends TestBase {
             $("[href='https://ca.inno.tech']").click();
         });
 
-        switchTo().window(1);
+        step("Переключаемся на вкладку в браузере Личный кабинет", () -> {
+            switchTo().window(1);
+        });
+
 
         step("Проверяем, что открылась нужная страница по главному заголовку", () -> {
             $(".popup").shouldHave(text("Включите VPN, чтобы получить доступ"));
@@ -95,7 +98,9 @@ public class InnotechSiteTest extends TestBase {
             $("[href='https://inno.tech/career']").click();
         });
 
-        switchTo().window(1);
+        step("Переключаемся на вкладку в браузере Карьера", () -> {
+            switchTo().window(1);
+        });
 
         step("Проверяем, что открылась нужная страница по главному заголовку", () -> {
             $("#app").shouldHave(text("Нас уже более 10000 сотрудников"));
