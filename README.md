@@ -79,6 +79,8 @@ gradle clean innotech_test
 ## <a id="jenkins"></a> <img width="30" alt="Jenkins" src="readme/icons/Jenkins_ico.svg"> Сборка в Jenkins
 
 
+<img alt="Jenkins_screenshot" src="readme/screenshots/Jenkins.png">
+
 <a href="#list">К Содержанию</a>
 
 ## <a id="allure"></a> <img width="30" alt="Allure" src="readme/icons/Allure_ico.svg"> Allure отчеты
