@@ -1,4 +1,4 @@
-package fastproject.innotech.lesson14.tests;
+package fastproject.innotech.lesson14.tests.setup;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;

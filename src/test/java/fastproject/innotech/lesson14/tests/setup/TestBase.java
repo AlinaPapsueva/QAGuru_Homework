@@ -1,8 +1,9 @@
-package fastproject.innotech.lesson14.tests;
+package fastproject.innotech.lesson14.tests.setup;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
+import fastproject.innotech.lesson14.tests.setup.InnotechMainPageData;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -12,11 +13,9 @@ import systempropertyforjenkins.lesson12.tests.Attach;
 
 import java.util.Map;
 
-import static com.codeborne.selenide.Selenide.sleep;
-
 // здесь лежат предустановки для Хром-драйвера
 public class TestBase {
-    InnotechMainPageData innotechMainPageData = new InnotechMainPageData();
+    public InnotechMainPageData innotechMainPageData = new InnotechMainPageData();
 
     @BeforeAll
     static void setUp() {
