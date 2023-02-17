@@ -33,9 +33,10 @@
 <a href="https://selenide.org/"><img width="75" alt="Selenide" src="readme/Selenide.svg"></a>
 <a href="https://aerokube.com/selenoid/"><img width="75" alt="Selenoid" src="readme/Selenoid.svg"></a>
 <a href="https://github.com/allure-framework/allure2"><img width="75" alt="Allure" src="readme/Allure.svg"></a>
+<a href="https://qameta.io)"><img width="55" alt="TestOps" src="readme/TestOps.png"></a>
 <a href="https://www.jenkins.io/"><img width="75" alt="Jenkins" src="readme/Jenkins.svg"></a>
 <a href="https://telegram.org/"><img width="75" alt="Telegram" src="readme/Telegram.svg"></a>
-<a href="https://telegram.org/"><img width="75" alt="Jira" src="readme/Jira.svg"></a>
+<a href="https://www.atlassian.com/ru/software/jira"><img width="75" alt="Jira" src="readme/Jira.svg"></a>
 </p>
 
 
@@ -75,14 +76,14 @@ gradle clean innotech_test
 
 <a href="#list">К Содержанию</a>
 
-## <a id="jenkins"></a> <img width="30" alt="Jenkins" src="readme/Jenkins.svg"> Сборка в Jenkins
+## <a id="jenkins"></a> <img width="30" alt="Jenkins" src="readme/Jenkins_ico.svg"> Сборка в Jenkins
 
 
-## :hammer_and_wrench: <a id="allure"></a> Allure отчеты
+## <a id="allure"></a> <img width="30" alt="Allure" src="readme/Allure_ico.svg"> Allure отчеты
 
 
 
-## :hammer_and_wrench: <a id="telegram"></a> Отчёт в Telegram
+## <a id="telegram"></a> <img width="30" alt="Telegram" src="readme/Telegram_ico.svg"> Отчёт в Telegram
 
 
 
