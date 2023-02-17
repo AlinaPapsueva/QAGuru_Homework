@@ -25,15 +25,17 @@
 
 ## :hammer_and_wrench: <a id="tools"></a> Технологии и инструменты
 <p align="center">
-<a href="https://www.jetbrains.com/idea/"><img width="65" alt="IDEA" src="external/technologies/Intelij_IDEA.svg"></a>
-<a href="https://www.java.com/"><img width="65" alt="JAVA" src="https://user-images.githubusercontent.com/98316705/219091907-18bda2fc-6b64-4b81-865c-5724900134a1.png"></a>
-<a href="https://github.com/"><img width="65" alt="Github" src="https://user-images.githubusercontent.com/98316705/219105901-7f9ce9aa-b0bc-4229-99ae-78efcb3e6774.png"></a>
-<a href="https://junit.org/junit5/"><img width="65" alt="JUnit 5" src="https://user-images.githubusercontent.com/98316705/219106734-f1953e88-182a-470d-980b-2f1a382f067f.png"></a>
-<a href="https://gradle.org/"><img width="65" alt="Gradle" src="https://user-images.githubusercontent.com/98316705/219107552-a672f5a2-e4fc-4b6b-8a6b-8bda7e6ef8f9.png"></a>
-<a href="https://selenide.org/"><img width="65" alt="Selenide" src="https://sdcast.ksdaemon.ru/wp-content/uploads/2017/03/selenide-logo-big.png"></a>
-<a href="https://aerokube.com/selenoid/"><img width="65" alt="Selenoid" src="https://github.com/ElenaSkorobodilova/rosatom-career-tests/blob/main/design/icons/Selenoid.png?raw=true"></a>
-<a href="https://github.com/allure-framework/allure2"><img src="images/logo/Allure.svg" width="50" height="50"  alt="Allure"/></a>
-<a href="https://www.jenkins.io/"><img src="images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
+<a href="https://www.jetbrains.com/idea/"><img width="75" alt="IDEA" src="readme/Intelij_IDEA.svg"></a>
+<a href="https://www.java.com/"><img width="75" alt="JAVA" src="readme/Java.svg"></a>
+<a href="https://github.com/"><img width="75" alt="Github" src="readme/GitHub.svg"></a>
+<a href="https://junit.org/junit5/"><img width="75" alt="JUnit5" src="readme/JUnit5.svg"></a>
+<a href="https://gradle.org/"><img width="75" alt="Gradle" src="readme/Gradle.svg"></a>
+<a href="https://selenide.org/"><img width="75" alt="Selenide" src="readme/Selenide.svg"></a>
+<a href="https://aerokube.com/selenoid/"><img width="75" alt="Selenoid" src="readme/Selenoid.svg"></a>
+<a href="https://github.com/allure-framework/allure2"><img width="75" alt="Allure" src="readme/Allure.svg"></a>
+<a href="https://www.jenkins.io/"><img width="75" alt="Jenkins" src="readme/Jenkins.svg"></a>
+<a href="https://telegram.org/"><img width="75" alt="Telegram" src="readme/Telegram.svg"></a>
+<a href="https://telegram.org/"><img width="75" alt="Jira" src="readme/Jira.svg"></a>
 </p>
 
 
