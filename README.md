@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/98316705/218818302-e839d809-55ac-4b59-8eab-f225c114ac90.png)
 
 
-## :bookmark_tabs: Содержание 
+## :bookmark_tabs: <a id="list"></a> Содержание 
 
 * <a href="#tools">Технологии и инструменты</a>
 
@@ -46,13 +46,36 @@
 * :heavy_check_mark: Проверка работы фильтра вакансий - есть хотя бы 1 вакансия
 * :heavy_check_mark: Проверка работы фильтра вакансий - вакансий не найдено
 
+<a href="#list">К Содержанию</a>
 
 ## :desktop_computer: <a id="console"></a> Запуск из терминала
+### Локальный запуск тестов
 
+```
+gradle clean innotech_test 
+```
 
+### Удаленный запуск тестов
 
-## :hammer_and_wrench: <a id="jenkins"></a> Сборка в Jenkins
+```
+gradle clean innotech_test
+"-Dbrowser=${BROWSER}"
+"-DbrowserVersion=${BROWSER_VERSION}"
+"-DbrowserSize=${BROWSER_SIZE}"
+"-Dremote=${REMOTE}"
+```
 
+> `${BROWSER}` - наименование браузера (_по умолчанию - <code>chrome</code>_).
+>
+> `${BROWSER_VERSION}` - версия браузера (_по умолчанию - <code>100.0</code>_).
+>
+> `${BROWSER_SIZE}` - размер окна браузера (_по умолчанию - <code>1920x1080</code>_).
+>
+> `${REMOTE_URL}` - адрес удаленного сервера, на котором будут запускаться тесты.
+
+<a href="#list">К Содержанию</a>
+
+## <a id="jenkins"></a> <img width="30" alt="Jenkins" src="readme/Jenkins.svg"> Сборка в Jenkins
 
 
 ## :hammer_and_wrench: <a id="allure"></a> Allure отчеты
