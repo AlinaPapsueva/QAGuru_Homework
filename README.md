@@ -8,6 +8,8 @@
 
 * <a href="#cases">Реализованные проверки</a>
 
+* <a href="#integrations">Подключенные интеграции</a>
+
 * <a href="#console">Запуск из терминала</a>
 
 * <a href="#jenkins">Сборка в Jenkins</a>
@@ -41,11 +43,21 @@
 
 
 ## :white_check_mark: <a id="cases"></a> Реализованные проверки
-* :heavy_check_mark: Проверка основных элементов на главной странице
-* :heavy_check_mark: Проверка перехода в Личный кабинет без vpn
-* :heavy_check_mark: Проверка перехода на страницу Карьера
-* :heavy_check_mark: Проверка работы фильтра вакансий - есть хотя бы 1 вакансия
-* :heavy_check_mark: Проверка работы фильтра вакансий - вакансий не найдено
+:heavy_check_mark: Проверка основных элементов на главной странице   
+:heavy_check_mark: Проверка перехода в Личный кабинет без vpn   
+:heavy_check_mark: Проверка перехода на страницу Карьера   
+:heavy_check_mark: Проверка работы фильтра вакансий - есть хотя бы 1 вакансия   
+:heavy_check_mark: Проверка работы фильтра вакансий - вакансий не найдено   
+
+<a href="#list">К Содержанию</a>
+
+## :on:	<a id="integrations"></a> Подключенные интеграции
+:heavy_check_mark: Запуск автотестов в Jenkins   
+:heavy_check_mark: Allure Report + SelenideLogger.addListener + step()   
+:heavy_check_mark: Уведомление от бота в Telegram с отчетом о прохождении тестов   
+:heavy_check_mark: Allure TestOps   
+:heavy_check_mark: Jira   
+:heavy_check_mark: Selenoid   
 
 <a href="#list">К Содержанию</a>
 
@@ -78,8 +90,7 @@ gradle clean innotech_test
 
 ## <a id="jenkins"></a> <img width="30" alt="Jenkins" src="readme/icons/Jenkins_ico.svg"> Сборка в Jenkins
 
-:information_source: При сборке в Jenkins можно выбрать параметры из выпадающих списков
-:warning: 
+:information_source: При сборке в Jenkins можно выбрать параметры из выпадающих списков   
 
 <img alt="Jenkins_screenshot" src="readme/screenshots/Jenkins.PNG">
 
@@ -87,6 +98,16 @@ gradle clean innotech_test
 
 ## <a id="allure"></a> <img width="30" alt="Allure" src="readme/icons/Allure_ico.svg"> Allure отчеты
 
+:information_source: По итогам сборки в Jenkins собирается отчет в Allure Report   
+* Автотесты написаны как "шаги" через SelenideLogger.addListener + step() = описание пройденных тестов понятно любому сотруднику
+* Подключено добавление в отчет:   
+  - последнего скриншота
+  - ресурсов страницы
+  - логов браузера
+  - видео прохождения тестов
+
+<img alt="Jenkins_screenshot" src="readme/screenshots/AllureReportMain.PNG">
+<img alt="Jenkins_screenshot" src="readme/screenshots/AllureReportSuites.PNG">
 
 <a href="#list">К Содержанию</a>
 
