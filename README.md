@@ -78,8 +78,10 @@ gradle clean innotech_test
 
 ## <a id="jenkins"></a> <img width="30" alt="Jenkins" src="readme/icons/Jenkins_ico.svg"> Сборка в Jenkins
 
+:information_source: При сборке в Jenkins можно выбрать параметры из выпадающих списков
+:warning: 
 
-<img alt="Jenkins_screenshot" src="readme/screenshots/Jenkins.png">
+<img alt="Jenkins_screenshot" src="readme/screenshots/Jenkins.PNG">
 
 <a href="#list">К Содержанию</a>
 
