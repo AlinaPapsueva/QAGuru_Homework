@@ -106,27 +106,37 @@ gradle clean innotech_test
   - логов браузера
   - видео прохождения тестов
 
-<img alt="Jenkins_screenshot" src="readme/screenshots/AllureReportMain.PNG">
-<img alt="Jenkins_screenshot" src="readme/screenshots/AllureReportSuites.PNG">
+<img alt="AllureReportMain_screenshot" src="readme/screenshots/AllureReportMain.PNG">
+<img alt="AllureReportSuites_screenshot" src="readme/screenshots/AllureReportSuites.PNG">
 
 <a href="#list">К Содержанию</a>
 
 ## <a id="telegram"></a> <img width="30" alt="Telegram" src="readme/icons/Telegram_ico.svg"> Отчёт в Telegram
+:information_source: Также отчет по сборке можно отправить в телеграм через бота
 
+<img alt="TelegramReport_screenshot" src="readme/screenshots/TelegramReport.PNG">
 
 <a href="#list">К Содержанию</a>
 
 ## <a id="testops"> <img width="25" alt="TestOps" src="readme/icons/TestOpspng.png"> Интеграция с Allure TestOps
-
+:information_source: Настроена интеграция с Allure TestOps, в котором также можно увидеть отчет о прохождении автотестов
+  
+<img alt="TestOpsLaunches_screenshot" src="readme/screenshots/TestOpsLaunches.PNG">
+<img alt="TestOpsLaunchTree_screenshot" src="readme/screenshots/TestOpsLaunchTree.PNG">
 
 <a href="#list">К Содержанию</a>
 
 ## <a id="jira"></a> <img width="30" alt="Jira" src="readme/icons/Jira.svg"> Интеграция с Jira
-
+:information_source: Настроена интеграция Allure TestOps с Jira.
+Тест-кейсы и результаты прогонов можно прикреплять к необходимым задачам.
+  
+<img alt="Jira_screenshot" src="readme/screenshots/Jira.PNG">
 
 <a href="#list">К Содержанию</a>
 
 ## <a id="video"></a> <img width="30" alt="Selenoid" src="readme/icons/Selenoid_ico.svg"> Пример прогона теста в Selenoid
-
+:information_source: Видео прогона одного из кейсов. Записано автоматически.
+  
+<img alt="SelenoidVideo_video" src="readme/SelenoidVideo.gif">
 
 <a href="#list">К Содержанию</a>
