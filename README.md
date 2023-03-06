@@ -76,6 +76,7 @@ gradle clean innotech_test
 "-DbrowserVersion=${BROWSER_VERSION}"
 "-DbrowserSize=${BROWSER_SIZE}"
 "-Dremote=${REMOTE}"
+"-Denv=${ENV}"
 ```
 
 > `${BROWSER}` - наименование браузера (_по умолчанию - <code>chrome</code>_).
@@ -85,6 +86,8 @@ gradle clean innotech_test
 > `${BROWSER_SIZE}` - размер окна браузера (_по умолчанию - <code>1920x1080</code>_).
 >
 > `${REMOTE}` - адрес удаленного сервера, на котором будут запускаться тесты.
+>
+> `${ENV}` - конфиг для быстрого выбора места запуска тестов: локально <code>local</code> или на Selenoid <code>remote</code>.
 
 <a href="#list">К Содержанию</a>
 
